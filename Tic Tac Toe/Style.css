@@ -1,0 +1,99 @@
+body{
+    background-image: url("images/bkg1.jpg");
+    background-size: cover;
+}
+
+.grid-container {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 260px;
+    width: 820px;
+    height: 520px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    background-color: rgba(0, 0, 0, 0.596);
+    grid-gap: 1px 1px;
+    
+    
+}
+
+.end-game {
+    position: relative;
+    margin-top: 680px;
+    margin-left: 230px;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: 1px solid rgb(255, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-size: 100px;
+    color: antiquewhite;
+    z-index: 1;
+}
+
+.grid-item {
+    position: relative;
+    margin-top: 680px;
+    margin-left: 230px;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: 1px solid rgb(255, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-size: 100px;
+    color: antiquewhite
+    
+    
+}
+
+#header{
+    position: absolute;
+    width: 820px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 260px;
+    background-color: rgba(240, 35, 8, 0.603);
+    border-radius: 2px;
+}
+
+#mode{
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
+    background-color: rgba(139, 114, 65, 0.5);
+    border: none;
+}
+
+#sign{
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
+    background-color: rgba(139, 114, 65, 0.5);
+    border: none;
+}
+
+#start{
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 45px;
+    width: 120px;
+    height: 40px;
+    z-index: 1;
+    background-color: rgb(110, 152, 199);
+    border: none;
+}
+
+#start:focus {
+    border: none;
+}
+
+
